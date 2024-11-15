@@ -15,5 +15,6 @@ public class Fibnoccai {
             n2=n3;
             System.out.print(" "+n3);
         }
+        sc.close();
     }    
 }

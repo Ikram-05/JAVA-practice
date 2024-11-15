@@ -13,5 +13,7 @@ public class Triangle {
         }
         System.out.println("");
     }
+    sc.close();
+
  }   
 }

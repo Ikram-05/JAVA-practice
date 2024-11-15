@@ -19,5 +19,6 @@ public class PowerOfNumber {
         int exp=sc.nextInt();
         int res=powerOfTheNumber(base, exp);
         System.out.println("Power the number is = "+res);
+        sc.close();
     }
 }

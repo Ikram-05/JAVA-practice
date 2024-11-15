@@ -31,6 +31,7 @@ public class PrimeFactors {
       System.out.println("Enter a number: ");
       int n=sc.nextInt();
       factor(n);
+      sc.close();
    }
 
 }

@@ -34,6 +34,6 @@ public class Armstrong {
         }
         String str=sum==copy?"Armstrong Number":"Not a Armstrong";
         System.out.println(str);
-
+        sc.close();
     }
 }

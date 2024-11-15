@@ -25,6 +25,7 @@ public class StrongNumber {
         int num=sc.nextInt();
         int res=digits(num);
         System.out.println(res==num?"Strong number":"Not a Strong Number");
+        sc.close();
 
     }
 }

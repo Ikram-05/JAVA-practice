@@ -23,6 +23,6 @@ public class PrimeInRange {
                 System.out.println(i);
             }
         }
-
+        sc.close();
     }    
 }

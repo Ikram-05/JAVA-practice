@@ -12,6 +12,8 @@ public class Square_Patter {
             }
             System.out.println(" ");
         }   
+        sc.close();
+
     }
     
 }

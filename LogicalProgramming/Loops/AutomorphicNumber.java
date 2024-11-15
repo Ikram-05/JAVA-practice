@@ -15,5 +15,6 @@ public class AutomorphicNumber {
         else{
             System.out.println("No, its not a Automorphic Number");
         }
+        sc.close();
     }   
 }

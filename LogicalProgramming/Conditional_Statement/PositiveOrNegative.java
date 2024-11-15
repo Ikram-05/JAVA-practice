@@ -16,5 +16,6 @@ class PositiveOrNegative{
         else{
             System.out.println("Zero");
         }
+        sc.close();
     }
 }

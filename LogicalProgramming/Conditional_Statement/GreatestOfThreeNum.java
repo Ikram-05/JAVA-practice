@@ -18,5 +18,6 @@ public class GreatestOfThreeNum {
         else{
             System.out.println("Greatest number is: "+n3);
         }
+        sc.close();
     }
 }

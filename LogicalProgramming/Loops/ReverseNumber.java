@@ -19,5 +19,7 @@ class ReverseNumber{
         System.out.println("Enter a number: ");
         int number=sc.nextInt();
         System.out.println("Reverse of a number is "+reverse(number));
+        sc.close();
+
     }
 }

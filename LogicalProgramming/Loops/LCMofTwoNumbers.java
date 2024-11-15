@@ -17,5 +17,6 @@ public class LCMofTwoNumbers {
             }
         }
         System.out.println("LCM of "+num1+" and "+num2+" is "+lcm);
+        sc.close();
     }    
 }

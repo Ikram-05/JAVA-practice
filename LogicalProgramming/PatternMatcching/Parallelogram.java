@@ -17,6 +17,8 @@ public class Parallelogram {
             }
             System.out.println("");
         }
+        sc.close();
+
     }
     
 }

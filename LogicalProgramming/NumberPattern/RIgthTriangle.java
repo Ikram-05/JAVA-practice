@@ -13,5 +13,7 @@ public class RIgthTriangle {
             }
             System.out.println(" ");
         }
+        sc.close();
+
     }
 }

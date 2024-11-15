@@ -43,6 +43,6 @@ public class ArmstrongInRange {
                 System.out.println(i);
             }
         }
-
+        sc.close();
     }
 }

@@ -16,5 +16,6 @@ public class EvenOrOdd {
         else{
             System.out.println("Zero");
         }
+        sc.close();
     }
 }

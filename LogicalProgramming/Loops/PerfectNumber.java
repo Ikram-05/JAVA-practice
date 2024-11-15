@@ -21,5 +21,6 @@ public class PerfectNumber {
         int num=sc.nextInt();
         int res=perfectNumber(num);
         System.out.println(res==num?"Perfect Number":"Not a perfect Number");
+        sc.close();
     }    
 }

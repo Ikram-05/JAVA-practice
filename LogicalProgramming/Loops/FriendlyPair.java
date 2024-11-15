@@ -29,6 +29,7 @@ public class FriendlyPair {
         else{
             System.out.println("This numbers is Not Friendly Pair");
         }
+        sc.close();
 
     }
 }

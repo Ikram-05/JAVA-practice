@@ -16,6 +16,8 @@ public class ReversePyramid {
             }
             System.out.println(" ");
         }
+        sc.close();
+
     }
     
 }

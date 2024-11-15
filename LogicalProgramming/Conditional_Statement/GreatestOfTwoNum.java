@@ -13,5 +13,6 @@ public class GreatestOfTwoNum {
         else{
             System.out.println("Greatest number is: "+n2);
         }
+        sc.close();
     }
 }

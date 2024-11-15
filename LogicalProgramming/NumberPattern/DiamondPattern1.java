@@ -10,8 +10,10 @@ public class DiamondPattern1 {
         int start=sc.nextInt();
         for(int i=1;i<=col;i++){
             for(int j=1;j<=i;j++){
-                System.out.println(start++);
+                System.out.print(start++);
             }
         }
+        sc.close();
+
     }
 }

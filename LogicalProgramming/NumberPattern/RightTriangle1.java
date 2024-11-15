@@ -15,5 +15,7 @@ public class RightTriangle1 {
             start++;
             System.out.println("");
         }
+        sc.close();
+
     }
 }

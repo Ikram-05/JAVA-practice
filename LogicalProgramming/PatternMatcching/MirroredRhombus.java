@@ -16,5 +16,7 @@ public class MirroredRhombus {
             }
             System.out.println("");
         }
+        sc.close();
+
     }
 }

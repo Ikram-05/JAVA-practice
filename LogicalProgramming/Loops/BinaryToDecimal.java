@@ -9,7 +9,7 @@ public class BinaryToDecimal {
         int base=2;
         int pow=1;
        
-        for(int i=0;i<=n-1;i++){
+        for(int i=1;i<=n;i++){
             pow*=base;
         }
 
@@ -29,5 +29,6 @@ public class BinaryToDecimal {
             n++;
         }
         System.out.println("Decimal of "+copy+" is "+decimal);
+        sc.close();
     }
 }

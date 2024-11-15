@@ -12,5 +12,6 @@ public class Problem2 {
         else{
             System.out.println("It will not create");
         }
+        sc.close();
     }
 }

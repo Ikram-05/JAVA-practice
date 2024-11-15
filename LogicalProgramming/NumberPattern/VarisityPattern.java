@@ -26,5 +26,7 @@ public class VarisityPattern {
             }
             System.out.println(" ");
         }
+        sc.close();
+
     }    
 }

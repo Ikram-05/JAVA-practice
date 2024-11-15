@@ -24,5 +24,6 @@ public class HarshadNumber {
         else{
             System.out.println("Not a Harshad number ");
         }
+        sc.close();
     }
 }

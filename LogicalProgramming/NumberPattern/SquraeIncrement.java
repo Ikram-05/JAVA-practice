@@ -12,5 +12,7 @@ public class SquraeIncrement {
             }
             System.out.println("");
         }
+        sc.close();
+
     }
 }

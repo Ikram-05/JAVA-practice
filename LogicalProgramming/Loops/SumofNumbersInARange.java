@@ -13,5 +13,7 @@ public class SumofNumbersInARange {
             sum+=i;
         }
         System.out.println("Sum of numbers in the given range: "+sum);
+        sc.close();
+
     }
 }

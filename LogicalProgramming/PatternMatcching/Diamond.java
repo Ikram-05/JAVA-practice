@@ -15,7 +15,7 @@ public class Diamond {
             }
             System.out.println(" ");
         }
-        for(int j=s-1;j>0;j--){
+        for(int j=s;j>1;j--){
             for(int i=j;i<s;i++){
                 System.out.print(" ");
             }
@@ -24,5 +24,7 @@ public class Diamond {
             }
             System.out.println(" ");
         }
+        sc.close();
+
     }
 }

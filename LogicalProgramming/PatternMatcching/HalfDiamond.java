@@ -18,5 +18,7 @@ public class HalfDiamond {
             }
             System.out.println(" ");
         }
+        sc.close();
+
     }
 }

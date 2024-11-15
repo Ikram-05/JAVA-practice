@@ -11,5 +11,7 @@ public class SumofNthNum {
         sum+=i;
     }
     System.out.println("Sum of N numbers: "+sum);
+    sc.close();
+
    } 
 }

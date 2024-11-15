@@ -25,6 +25,8 @@ public class ReverseHollowPyramid {
                 }
             }
             System.out.println("");
+        sc.close();
+
         }
     }
 

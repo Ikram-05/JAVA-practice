@@ -18,5 +18,7 @@ public class HollowRectangle {
             }
             System.out.println("");
         }
+        sc.close();
+
     }
 }

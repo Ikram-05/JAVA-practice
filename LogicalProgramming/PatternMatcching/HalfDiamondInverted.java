@@ -24,6 +24,8 @@ public class HalfDiamondInverted {
             }
             System.out.println(" ");
         }
+        sc.close();
+
 
     }   
 }

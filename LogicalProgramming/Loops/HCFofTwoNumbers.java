@@ -15,5 +15,6 @@ public class HCFofTwoNumbers {
             }
         }
         System.out.println("HCF of "+num1+" and "+num2+" is " +hcf);
+        sc.close();
     }    
 }
