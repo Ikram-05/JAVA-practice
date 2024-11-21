@@ -33,6 +33,7 @@ class Mainclass4{
         eexperience=sc.nextDouble();
         Employee exp=new Employee(eid, ename, esalary, eexperience);
         exp.details();
+        sc.close();
     }
 
 }

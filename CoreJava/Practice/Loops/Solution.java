@@ -9,6 +9,6 @@ class Solution
             int product=n*i;
             System.out.println(n+" x "+i+" = "+product);
         }
-        
+        sc.close();  
     }
 }
