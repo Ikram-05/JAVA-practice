@@ -5,7 +5,6 @@
 // 1 0 1 0 1 
 // 1 0 1 0 1
 
-package Pattern;
 import java.util.Scanner;
 
 public class PatternType5 {
