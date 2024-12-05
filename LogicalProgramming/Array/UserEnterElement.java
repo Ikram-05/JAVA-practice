@@ -19,12 +19,24 @@ public class UserEnterElement {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter index number and value");
+        System.out.println("Enter array size");
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+        System.out.println("Enter array elements");
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
+        }
+        System.out.println("Entered array "+Arrays.toString(arr));
+        System.out.println("\nEnter index number and value");
         int index=sc.nextInt();
         int value=sc.nextInt();
-        int arr[]={2,5,6,7,8};
-        int[] res=addElement(arr, index, value);
-        System.out.println(Arrays.toString(res));
+        if(index<0&&index>=size){
+            int[] res=addElement(arr, index, value);
+            System.out.println(Arrays.toString(res));
+        }
+        else{
+            System.out.println("Index number is higer than the array");
+        }
         sc.close();
 
     }
